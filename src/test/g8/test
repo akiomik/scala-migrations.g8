@@ -1,0 +1,2 @@
+> compile
+$ exists src/main/scala/com/example/migrations/Migrate_YYYYMMDDHHMISS_YourMigrationName.scala
