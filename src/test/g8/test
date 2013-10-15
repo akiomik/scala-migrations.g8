@@ -1,2 +1,3 @@
 > compile
-$ exists src/main/scala/com/example/migrations/Migrate_YYYYMMDDHHMISS_YourMigrationName.scala
+#> g8-scaffold migrate
+#$ exists src/main/scala/com/example/migrations/Migrate_YYYYMMDDHHMISS_YourMigrationName.scala
