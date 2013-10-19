@@ -13,10 +13,11 @@ object $name;format="Camel"$Build extends Build {
       scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
           "com.imageworks.scala-migrations" %% "scala-migrations" % "1.1.1"
-      ),
-      giter8.ScaffoldPlugin.scaffoldSettings:_*
+      )
       // add other settings here
     )
+  ).settings(
+    giter8.ScaffoldPlugin.scaffoldSettings:_*
   )
 }
 
